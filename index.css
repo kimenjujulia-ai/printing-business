@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+@theme inline {
+  --color-cyan-ink: #00AEEF;
+  --color-magenta-ink: #EC008C;
+  --color-yellow-ink: #FFF200;
+  --color-black-ink: #1A1A1A;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #00AEEF transparent;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+}
